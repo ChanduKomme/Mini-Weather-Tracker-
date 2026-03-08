@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Icon size; keep between 24–28dp if you ever want to adjust -->
+    <dimen name="bnv_icon">24dp</dimen>
+
+    <!-- Don't touch flow; just some spare space for lists if needed elsewhere -->
+    <dimen name="scroll_bottom_extra">16dp</dimen>
+
+    <!-- Make the BottomNavigationView's *visual* height exactly the icon height -->
+    <dimen name="mtrl_navigation_bar_height">@dimen/bnv_icon</dimen>
+    <dimen name="design_bottom_navigation_height">@dimen/bnv_icon</dimen>
+
+    <!-- Remove default vertical paddings so icons sit centered (no push-down) -->
+    <dimen name="mtrl_navigation_bar_item_padding_top">0dp</dimen>
+    <dimen name="mtrl_navigation_bar_item_padding_bottom">0dp</dimen>
+    <dimen name="m3_bottom_nav_item_padding_top">0dp</dimen>
+    <dimen name="m3_bottom_nav_item_padding_bottom">0dp</dimen>
+
+</resources>

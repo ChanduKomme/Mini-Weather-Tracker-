@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Mini Weather Tracker</string>
+
+    <!-- Menu -->
+    <string name="menu_title">Mini Weather Tracker</string>
+    <string name="menu_subtitle">Shake to refresh • Light sensor switches Day/Night</string>
+    <string name="btn_current_weather">View Current Weather</string>
+    <string name="btn_forecast">View Forecast Graph</string>
+
+    <!-- Placeholders -->
+    <string name="current_weather_title">Current Weather</string>
+    <string name="forecast_title">Forecast Graph</string>
+    <string name="coming_soon">Coming soon…</string>
+
+    <!-- Current Weather -->
+    <string name="cw_title">Current Weather</string>
+
+    <!-- CHANGED: remove label text -->
+    <string name="cw_temp">%1$d°C</string>
+    <string name="cw_humidity">Humidity: %1$d%%</string>
+    <string name="cw_condition">Condition: %1$s</string>
+    <string name="cw_mode_day">Mode: Day</string>
+    <string name="cw_mode_night">Mode: Night</string>
+    <string name="cw_shake_hint">Shake phone to refresh</string>
+    <string name="cw_refreshed">Weather refreshed</string>
+    <string name="cw_no_light">No light sensor on this device</string>
+    <string name="cw_no_accel">No accelerometer on this device</string>
+
+    <!-- CHANGED: remove "Location:" label -->
+    <string name="cw_location">%1$s</string>
+
+    <string name="cw_fetching">Fetching weather…</string>
+    <string name="cw_location_unknown">Unknown</string>
+    <string name="cw_error">Using mock data (no internet/location)</string>
+
+    <!-- Forecast -->
+    <string name="fg_fetching">Fetching…</string>
+    <string name="fg_error">Using mock forecast</string>
+    <string name="fg_hottest">Hottest</string>
+    <string name="fg_coldest">Coldest</string>
+    <string name="fg_subtitle">Next 7 days (daily max °C)</string>
+
+    <!-- Hourly -->
+    <string name="hourly_title">Hourly Forecast</string>
+    <string name="hourly_subtitle">Next 24 hours</string>
+    <string name="hourly_fetching">Fetching…</string>
+    <string name="hourly_error">Using mock hourly data</string>
+    <string name="hourly_realfeel">RealFeel® %1$d°</string>
+    <string name="now_realfeel_placeholder">RealFeel —</string>
+    <string name="precip_msg_placeholder">—</string>
+    <string name="updated_at_placeholder">Updated —</string>
+
+    <string name="sun_moon_title">Sun &amp; Moon</string>
+    <string name="day_length_fmt">%1$d hrs %2$d mins</string>
+    <string name="sunrise_fmt">Rise %1$s</string>
+    <string name="sunset_fmt">Set %1$s</string>
+    <string name="moonrise_fmt">Rise %1$s</string>
+    <string name="moonset_fmt">Set %1$s</string>
+    <string name="moon_phase_fmt">%1$s</string>
+
+    <string name="precip_none_60">No precipitation for at least 60 min</string>
+    <string name="precip_possible_60">Possible precipitation within 60 min</string>
+    <string name="precip_likely_60">Likely precipitation within 60 min</string>
+    <string name="updated_at">Updated as of %1$s</string>
+    <string name="precip_msg_none_60">No precipitation for at least 60 min</string>
+    <string name="precip_msg_prob_60">Precipitation chance %1$d%% in the next hour</string>
+
+    <string name="now_realfeel_value">RealFeel %1$d°</string>
+    <string name="updated_at_placeholder_prefix">Updated at %1$s</string>
+
+    <string name="day_length_value">%1$d hrs %2$d mins</string>
+    <string name="sunrise_value">Rise %1$s</string>
+    <string name="sunset_value">Set %1$s</string>
+    <string name="moonrise_value">Rise %1$s</string>
+    <string name="moonset_value">Set %1$s</string>
+    <string name="moon_phase_value">%1$s</string>
+
+    <string name="moon_phase_new">New Moon</string>
+    <string name="moon_phase_waxing_crescent">Waxing Crescent</string>
+    <string name="moon_phase_first_quarter">First Quarter</string>
+    <string name="moon_phase_waxing_gibbous">Waxing Gibbous</string>
+    <string name="moon_phase_full">Full Moon</string>
+    <string name="moon_phase_waning_gibbous">Waning Gibbous</string>
+    <string name="moon_phase_last_quarter">Last Quarter</string>
+    <string name="moon_phase_waning_crescent">Waning Crescent</string>
+
+    <!-- Placeholders for Sun & Moon block (used by activity_current_weather.xml) -->
+    <string name="day_length_placeholder">—</string>
+    <string name="sunrise_placeholder">Rise —</string>
+    <string name="sunset_placeholder">Set —</string>
+    <string name="moon_phase_placeholder">—</string>
+    <string name="moonrise_placeholder">Rise —</string>
+    <string name="moonset_placeholder">Set —</string>
+    <string name="heading_fmt">Heading: %1$d°</string>
+    <string name="wind_fmt">Wind: %1$d km/h • %2$d°</string>
+    <string name="heading_placeholder">Heading: —°</string>
+    <string name="wind_placeholder">Wind: — km/h • __°</string>
+
+    <string name="home_search">Search</string>
+    <string name="home_saved">Saved</string>
+    <string name="home_results">Results</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_today">Today</string>
+    <string name="nav_weekly">Weekly</string>
+    <string name="nav_hourly">Hourly</string>
+    <string name="nav_compass">Compass</string>
+
+    <!-- Home screen -->
+    <string name="home_search_hint">Search city or place</string>
+
+    <string name="home_search_failed_detail">Search failed. Check your connection and try again.</string>
+
+    <!-- Buttons / messages -->
+    <string name="home_saved_msg">Saved</string>
+    <string name="home_removed_msg">Removed</string>
+    <string name="home_default">Default</string>
+    <string name="home_remove">Remove</string>
+    <string name="home_add">Add</string>
+    <string name="home_fail">Search failed</string>
+    <string name="home_type_msg">Please type something</string>
+
+    <string name="home_search_hint_secondary">Type a city name and tap Search</string>
+    <string name="home_search_btn">Search</string>
+    <string name="home_saved_header">Saved locations</string>
+    <string name="home_results_header">Results</string>
+    <string name="home_default_badge">DEFAULT</string>
+    <string name="home_no_results" />
+    <string name="cw_mode_light">Mode: Light</string>
+    <string name="cw_mode_dark">Mode: Dark</string>
+
+    <string name="home_btn_default">DEFAULT</string>
+    <string name="home_btn_remove">REMOVE</string>
+
+    <!-- Home default toggle toasts -->
+    <string name="home_set_default_msg">Set as default</string>
+    <string name="home_unset_default_msg">Default cleared</string>
+
+    <!-- card row placeholders -->
+    <string name="home_sample_city">City, Region, Country</string>
+
+    <string name="home_temp_placeholder">—°</string>
+    <string name="home_cond_placeholder">—</string>
+    <string name="home_coords_placeholder">00.0000, 00.0000</string>
+
+    <!-- existing helper strings -->
+    <string name="cw_feels_like_fmt">Feels like: %1$s</string>
+    <string name="cw_temp_dash">—°C</string>
+
+    <string name="desc_saved_list">Saved locations list</string>
+
+    <string name="home_city_sample">City, Region, Country</string>
+    <string name="plus_sign">+</string>
+    <string name="desc_wind_alert_icon">Wind warning indicator</string>
+    <string name="no_wind_warnings">No wind warnings.</string>
+
+
+
+        <string name="cw_feels_like_placeholder">Feels like: —</string>
+        <string name="cw_sunrise_fmt">Sunrise: %1$s</string>
+        <string name="cw_sunset_fmt">Sunset: %1$s</string>
+        <string name="cw_sunrise_placeholder">Sunrise: —</string>
+        <string name="cw_sunset_placeholder">Sunset: —</string>
+
+        <!-- keep the rest of your existing strings unchanged -->
+
+
+</resources>

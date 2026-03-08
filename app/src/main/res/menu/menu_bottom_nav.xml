@@ -1,0 +1,22 @@
+<!-- res/menu/menu_bottom_main.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tab_home"
+
+        android:title="Home" />
+    <item
+        android:id="@+id/tab_current"
+
+        android:title="Today" />
+    <item
+        android:id="@+id/tab_graph"
+
+        android:title="Weekly" />
+    <item
+        android:id="@+id/tab_hourly"
+        android:title="Hourly" />
+    <item
+        android:id="@+id/tab_compass"
+
+        android:title="Compass" />
+</menu>
